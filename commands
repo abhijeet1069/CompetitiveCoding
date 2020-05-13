@@ -1,0 +1,10 @@
+grep -i "o" example.txt //Grep searches for pattern in file. -i to ignore case. 
+cat example.bat | grep "o" //pipe works left to right. Same output as above
+date | grep "u"
+
+sort example.bat >> example1 //appends at last of example1. > overwrites the file
+
+time sleep 3
+real 3m003s //Clock time taken by a command to get executed. Also includes input time.
+user 0m003s //command uses in user mode
+sys 0m000s //command uses in kernel mode
